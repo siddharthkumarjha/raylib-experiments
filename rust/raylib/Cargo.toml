@@ -1,0 +1,14 @@
+[package]
+name = "raylib"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+
+[lib]
+crate-type = ["lib"]
+
+[dependencies]
+libc="0.2.0"
+
+[build-dependencies]
+bindgen="0.71.0"
